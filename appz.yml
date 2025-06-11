@@ -34,10 +34,10 @@ properties:
     GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET: 
       vault: GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET
     GF_AUTH_GENERIC_OAUTH_SCOPES: openid profile email  
-    GF_AUTH_GENERIC_OAUTH_AUTH_URL: https://appz-qa.lowtouchcloud.io/openid/authorize 
-    GF_AUTH_GENERIC_OAUTH_TOKEN_URL: https://appz-qa.lowtouchcloud.io/openid/token 
-    GF_AUTH_GENERIC_OAUTH_API_URL: https://appz-qa.lowtouchcloud.io/openid/userinfo 
+    GF_AUTH_GENERIC_OAUTH_AUTH_URL: https://appz-sanjay.lowtouchcloud.io/openid/authorize 
+    GF_AUTH_GENERIC_OAUTH_TOKEN_URL: https://appz-sanjay.lowtouchcloud.io/openid/token 
+    GF_AUTH_GENERIC_OAUTH_API_URL: https://appz-sanjay.lowtouchcloud.io/openid/userinfo 
     GF_AUTH_GENERIC_OAUTH_NAME_ATTRIBUTE_PATH: anyname
     GF_AUTH_GENERIC_OAUTH_ROLE_ATTRIBUTE_PATH: contains(roles[*], 'admin') && 'Admin' || 'Viewer'
-    GF_SERVER_ROOT_URL: https://qa-dev-grafana-7-0.lowtouchcloud.io
-    revision: 2
+    GF_SERVER_ROOT_URL: https://sanjay-dev-grafana-7-0.lowtouchcloud.io
+    revision: 1
